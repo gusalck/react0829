@@ -1,0 +1,17 @@
+.bg-green{
+    width: 100px;
+    padding: 100px;
+    background-color: lawngreen;
+}
+p{
+    background-color: dimgrey;
+}
+.bg-red
+{
+    background-color: rgba(255, 0, 0, 0.76);
+}
+.bg-blue{
+    width: 100px;
+    padding: 100px;
+    background-color: aquamarine;
+}
