@@ -2,13 +2,17 @@
     width: 100px;
     padding: 100px;
     background-color: lawngreen;
+    float: right;
 }
 p{
     background-color: dimgrey;
+
 }
 .bg-red
 {
     background-color: rgba(255, 0, 0, 0.76);
+    padding: 10px;
+    bottom: unset;
 }
 .bg-blue{
     width: 100px;

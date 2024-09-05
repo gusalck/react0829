@@ -1,0 +1,12 @@
+div{
+    border-width: 10px;
+    border-style: groove;
+    border-color: darkseagreen;
+    background-color: lavender;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 50px;
+    margin: 20px;
+    width: 300px;
+}
