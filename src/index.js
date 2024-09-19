@@ -6,14 +6,14 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import Button from "./chp04/Button";
 import ConfirmDialog from "./chp04/ConfirmDialog";
-
 import CommentList from './chp05/CommentList'
+import NotificationList from "./chp06/NotificationList";
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
     <React.StrictMode>
-        <CommentList />
+        <NotificationList />
     </React.StrictMode>
 );
 
