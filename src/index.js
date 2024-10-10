@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import "./chp04/Button.css";
+// import "./chp04/Button.css";
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import Button from "./chp04/Button";
@@ -9,12 +9,13 @@ import ConfirmDialog from "./chp04/ConfirmDialog";
 import CommentList from './chp05/CommentList'
 import NotificationList from "./chp06/NotificationList";
 import Accommodate from "./chp07/Accommodate"
+import ConfirmButton3 from "./chp08/ConfirmButton3"
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
     <React.StrictMode>
-        <Accommodate />
+        <ConfirmButton3/>
     </React.StrictMode>
 );
 
