@@ -4,27 +4,17 @@ import './index.css';
 // import "./chp04/Button.css";
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import Button from "./chp04/Button";
-import ConfirmDialog from "./chp04/ConfirmDialog";
-import CommentList from './chp05/CommentList'
-import NotificationList from "./chp06/NotificationList";
-import Accommodate from "./chp07/Accommodate"
-import ConfirmButton3 from "./chp08/ConfirmButton3"
-// import Greeting from "./chp09/Greeting"
-import LoginControl from "./chp09/LoginControl";
-import Greeting from "./test/Greeting"
-import MailBox from "./chp09/MailBox";
-import LoginControl2 from "./chp09/LoginControl2";
-import LandingPage from "./chp09/LandingPage";
-import AppNumberList from "./chp10/AppNumberList";
-import StudentAttendance from "./chp10/StudentAttendance";
-import AppStudentAttendance from "./chp10/AppStudentAttendance";
-import AttendanceCard from "./chp10/avatarAttendance/AttendanceCard";
+import NameForm from "./chp11/NameForm";
+import RequestForm from "./chp11/RequestForm";
+import NameRequestForm from "./chp11/NameRequestForm";
+import SignUp from "./chp11/signUp";
+
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
     <React.StrictMode>
-        <AttendanceCard/>
+        <SignUp/>
     </React.StrictMode>
 );
 
