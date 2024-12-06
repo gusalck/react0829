@@ -4,15 +4,16 @@ import './index.css';
 // import "./chp04/Button.css";
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import Calcurator3 from "./chp12/Calcurator3";
-import DistanceConverter from "./chp12/distance/DistanceConverter";
+import ProfileCard2 from "./chp13_prac2/ProfileCard2";
+import MainPage from "./chp13_prac2/MainPage";
+import AirApp from "./chp13_airbnb/AirApp";
 
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
     <React.StrictMode>
-        <DistanceConverter/>
+        <AirApp/>
     </React.StrictMode>
 );
 
